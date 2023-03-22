@@ -71,6 +71,13 @@ body {
   min-height: 100vh;
 }
 
+.bg{
+background-image: url(/assets/home/background-home-desktop.jpg);
+width: 100%;
+background-position: center;
+background-size: cover;
+}
+
 /* make images easier to work with */
 img,
 picutre {
@@ -123,6 +130,7 @@ select {
   padding-inline: 2em;
   margin-inline: auto;
   max-width: 80rem;
+  margin-top: 12em;
 }
 
 .sr-only {
@@ -223,7 +231,7 @@ border: 0;
 }
 
 .primary-navigation {
-  --gap: 8rem;
+  --gap: 5rem;
   --underline-gap: 2rem;
   list-style: none;
   padding: 0;
@@ -276,4 +284,9 @@ border: 0;
 
 .dot-indicators > [aria-selected="true"] {
   background-color: hsl( var(--clr-white) / 1); 
+}
+
+/* Created by me */
+.slogan {
+  max-width: 50%;
 }
